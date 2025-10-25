@@ -8,7 +8,7 @@
         // Updated buy minutes function with direct WhatsApp redirect
         function buyMinutes(packageName, price) {
             const message = `Hello PM Data Solution! I want to order ${packageName} for Ksh ${price}. Please provide payment instructions and process my order. Thank you!`;
-            const whatsappUrl = `https://wa.me/254788419041?text=${encodeURIComponent(message)}`;
+            const whatsappUrl = `https://wa.me/254758361830?text=${encodeURIComponent(message)}`;
             window.open(whatsappUrl, '_blank');
         }
 
